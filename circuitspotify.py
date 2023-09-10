@@ -15,9 +15,9 @@ Spotify for CircuitPython.
 ## Requirements
   * nvm support ( https://docs.circuitpython.org/en/latest/shared-bindings/nvm/index.html )
   * a session with internet connection (and thus a board that has networking capabilities)
-  * CircuitPython Version 8.2.1 
-    * (Do not use 8.2.2, 8.2.3 or 8.2.4, they have an incomplete certificate 
-      list which will cause https connection problems)
+  * CircuitPython Version 8.2.1, or 8.2.5+ (possibly earlier versions but that's untested)
+    * Do not use 8.2.2, 8.2.3 or 8.2.4, they have an incomplete certificate 
+      list which will cause https connection problems
 ## Initial setup steps
 1. Download CircuitSpotify to your boards /lib/ directory
 2. https://developer.spotify.com/ <br>
